@@ -37,72 +37,67 @@
      <!--timeline-->
      <script type="text/javascript">
         var timeline;
-
-        google.load("visualization", "1");
-
-        // Set callback to run when API is loaded
-        google.setOnLoadCallback(drawVisualization);
+        var data;
 
         // Called when the Visualization API is loaded.
         function drawVisualization() {
-            // Create and populate a data table.
-            var data = new google.visualization.DataTable();
-            data.addColumn('datetime', 'start');
-            data.addColumn('datetime', 'end');
-            data.addColumn('string', 'content');
-
-            data.addRows([
-              
-              // CONCURSOS
-                [new Date(2021,01,08), new Date(2021,05,06), 'MINISTERIO DA ECONOMIA<br>' +
-                '<img src="img/comments-icon.png" style="width:32px; height:32px;">'],
-                
-                [new Date(2021,5,24), new Date(2021,8,26), 'BANCO DO BRASIL<br>' +
-                '<img src="img/comments-icon.png" style="width:32px; height:32px;">'],
-
-                [new Date(2021,8,10), new Date(2021,9,31), 'CAIXA ECONOMICA<br>' +
-                '<img src="img/comments-icon.png" style="width:32px; height:32px;">'],
-                
-                [new Date(2021,9,20), new Date(2022,0,23), 'FUNPRESP<br>' +
-                '<img src="img/comments-icon.png" style="width:32px; height:32px;">'],
-
-                [new Date(2022,0,03), new Date(2022,2,20), 'CGU<br>' +
-                        '<img src="img/comments-icon.png" style="width:32px; height:32px;">'],
-
-                [new Date(2022,1,07), new Date(2022,4,29), 'TJDFT<br>' +
-                        '<img src="img/comments-icon.png" style="width:32px; height:32px;">'],
-                
-
-
-                ///
-                ///[new Date(2010,7,23,23,0,0), , 'Projeto<br>' +
-                ///        '<img src="img/mail-icon.png" style="width:32px; height:32px;">'],
-                ///[new Date(2010,7,24,16,0,0), , 'Report'],
-                ///[new Date(2010,7,26), new Date(2010,8,2), 'Traject A'],
-                ///[new Date(2010,7,28), , 'Memo<br>' +
-                //        '<img src="img/notes-edit-icon.png" style="width:48px; height:48px;">'],
-                ///[new Date(2010,7,29), , 'Phone call<br>' +
-                ///        '<img src="img/Hardware-Mobile-Phone-icon.png" style="width:32px; height:32px;">'],
-                /// [new Date(2010,7,31), new Date(2010,8,3), 'Traject B'],
-                ///[new Date(2010,8,4,12,0,0), , 'Report<br>' +
-                ///        '<img src="img/attachment-icon.png" style="width:32px; height:32px;">']
-            
-            ]);
+            // Create a JSON data table
+            data = [
+                {
+                    'start': new Date(2021,01,08),
+                    'end': new Date(2021,05,06),
+                    'content': 'MINISTERIO DA ECONOMIA'
+                },
+                {
+                    'start': new Date(2021,5,24),
+                    'end': new Date(2021,8,26),
+                    'content': 'BANCO DO BRASIL'
+                },
+                {
+                    'start': new Date(2021,8,10),
+                    'end': new Date(2021,10,17),
+                    'content': 'CAIXA ECONOMICA'
+                },
+                {
+                    'start': new Date(2021,9,20),
+                    'end': new Date(2022,0,23),
+                    'content': 'FUNPRESP'
+                },
+                {
+                    'start': new Date(2022,0,03),
+                    'end': new Date(2022,2,20),
+                    'content': 'CGU'
+                },
+                {
+                    'start': new Date(2022,1,07),
+                    'end': new Date(2022,4,29),
+                    'content': 'TJDFT'
+                },
+            ];
 
             // specify options
             var options = {
-                "width":  "100%",
-                "height": "300px",
-                "style": "box"
+                'width':  '100%',
+                'height': '300px',
+                'editable': true,   // enable dragging and editing events
+                'style': 'box'
             };
 
             // Instantiate our timeline object.
             timeline = new links.Timeline(document.getElementById('mytimeline'), options);
 
+            function onRangeChanged(properties) {
+                document.getElementById('info').innerHTML += 'rangechanged ' +
+                        properties.start + ' - ' + properties.end + '<br>';
+            }
+
+            // attach an event listener using the links events handler
+            links.events.addListener(timeline, 'rangechanged', onRangeChanged);
+
             // Draw our timeline with the created data and options
             timeline.draw(data);
         }
-      </script>
+    </script>
     <!--timeline-->
 
 </head>
