@@ -5,10 +5,17 @@ Desenvolvimento de um projeto que analisa editais e questões de concursos
 ### COMANDOS
 
 ```
-1º - Criar Repository
-2º - Escolher Tema
-3º - Configurar Tema
-4º - Publicar pagina 
+flowchart LR
+
+B[Analises]
+
+B --> C{Concursos}
+C --> J[Edital]
+C --> K[Banca]
+C --> L[Conteudo]
+C --> O[Provas anteriores]
+C --> M[Revisoes]
+C --> N[Simulados]
 ```
 
 
@@ -23,7 +30,9 @@ B --> C{Concursos}
 C --> J[Edital]
 C --> K[Banca]
 C --> L[Conteudo]
+C --> O[Provas anteriores]
 C --> M[Revisoes]
+C --> N[Simulados]
 
 ```
 
