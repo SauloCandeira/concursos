@@ -17,15 +17,13 @@ Desenvolvimento de um projeto que analisa editais e questões de concursos
 ```mermaid
 flowchart LR
 
-B[Concursos]
+B[Analises]
 
-B --> C{APP}
-C --> J[Tasks]
-C --> K[Timeline]
-C --> L[Team]
-C --> M[Daily-Notes]
-C --> N[Analytics]
-C --> O[Laboratory]
+B --> C{Concursos}
+C --> J[Edital]
+C --> K[Banca]
+C --> L[Conteudo]
+C --> M[Revisoes]
 
 ```
 
