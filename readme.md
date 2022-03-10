@@ -1,5 +1,5 @@
 # Sobre o Projeto:
-Jekyll Theme + Github, desenvolvimento de uma SPA em Jekyll e hospedando no GitHub Pages.
+Desenvolvimento de um projeto que analisa editais e questões de concursos
 
 
 ### COMANDOS
