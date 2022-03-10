@@ -5,13 +5,11 @@ Desenvolvimento de um projeto que analisa editais e questões de concursos
 ### COMANDOS
 
 ```
-flowchart LR
-
 B[Analises]
 
 B --> C{Concursos}
-C --> J[Edital]
-C --> K[Banca]
+C --> J[Banca]
+C --> K[Edital]
 C --> L[Conteudo]
 C --> O[Provas anteriores]
 C --> M[Revisoes]
@@ -27,8 +25,8 @@ flowchart LR
 B[Analises]
 
 B --> C{Concursos}
-C --> J[Edital]
-C --> K[Banca]
+C --> J[Banca]
+C --> K[Edital]
 C --> L[Conteudo]
 C --> O[Provas anteriores]
 C --> M[Revisoes]
