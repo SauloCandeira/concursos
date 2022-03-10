@@ -16,7 +16,8 @@ Desenvolvimento de um projeto que analisa editais e questões de concursos
 
 ```mermaid
 flowchart LR
-A[Github] -->|Config.yml| B[GH-Pages]
+
+B[Concursos]
 
 B --> C{APP}
 C --> J[Tasks]
