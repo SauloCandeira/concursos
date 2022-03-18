@@ -54,14 +54,14 @@ pie
     title My working day
     
     section ESTUDAR / LEARN
-      Make tea: 5: Me
+      PLANEJAR: 5: Me
       
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
+      ESTUDAR: 3: Me
+      ENSINAR: 1: Me, Cat
     
     section PRATICAR / PRATICE
-      Go downstairs: 5: Me
-      Sit down: 3: Me
+      SIMULADO: 5: Me
+      CORREÇÃO: 3: Me
 ```
 ### FONTE:
 
