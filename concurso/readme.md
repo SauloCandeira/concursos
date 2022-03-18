@@ -5,30 +5,57 @@ Desenvolvimento de um projeto que analisa editais e questões de concursos
 ### COMANDOS
 
 ```
-1º - Criar Repository
-2º - Escolher Tema
-3º - Configurar Tema
-4º - Publicar pagina 
-```
+B[Analises]
 
+B --> C{Concursos}
+C --> J[Banca]
+C --> K[Edital]
+C --> L[Conteudo]
+C --> O[Provas anteriores]
+C --> M[Revisoes]
+C --> N[Simulados]
+```
 
 ### FLUXOGRAMA/DIAGRAMA
 
 ```mermaid
 flowchart LR
-X[Repository] -->|Jekyll-Theme| A[Jekyll]
-A[Github] -->|Config.yml| B[GH-Pages]
 
-B --> C{APP}
-C --> J[Tasks]
-C --> K[Timeline]
-C --> L[Team]
-C --> M[Daily-Notes]
-C --> N[Analytics]
-C --> O[Laboratory]
+B[Analises]
+
+B --> C{Concursos}
+C --> J[Banca]
+C --> K[Edital]
+C --> L[Conteudo]
+C --> O[Provas anteriores]
+C --> M[Revisoes]
+C --> N[Simulados]
 
 ```
+### CONTEUDO:
 
+```mermaid
+pie
+"Direito" : 33
+"Tecnologia da Informação" : 33
+"Inglês" : 33
+```
+
+### CRONOGRAMA:
+```mermaid
+  journey
+    title My working day
+    
+    section ESTUDAR / LEARN
+      PLANEJAR: 5: SS
+      
+      ESTUDAR: 5: SS
+      ENSINAR: 1: II
+    
+    section PRATICAR / PRATICE
+      SIMULADO: 5: MM
+      CORREÇÃO: 3: MM
+```
 ### FONTE:
 
 
@@ -52,4 +79,3 @@ C --> O[Laboratory]
   </li>
   
 </ul>
-
