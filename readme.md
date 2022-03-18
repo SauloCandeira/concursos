@@ -54,7 +54,7 @@ pie
     title My working day
     
     section ESTUDAR / LEARN
-      PLANEJAR: 5: MM
+      PLANEJAR: 5: MM, II, MI
       
       ESTUDAR: 3: 5
       ENSINAR: 1: 5, 10
