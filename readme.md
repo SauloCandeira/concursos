@@ -57,7 +57,7 @@ pie
       PLANEJAR: 5: Me
       
       ESTUDAR: 3: Me
-      ENSINAR: 1: Me, Cat
+      ENSINAR: 1: Me, Nivel-2
     
     section PRATICAR / PRATICE
       SIMULADO: 5: Me
