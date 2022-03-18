@@ -16,7 +16,6 @@ C --> M[Revisoes]
 C --> N[Simulados]
 ```
 
-
 ### FLUXOGRAMA/DIAGRAMA
 
 ```mermaid
@@ -32,6 +31,21 @@ C --> O[Provas anteriores]
 C --> M[Revisoes]
 C --> N[Simulados]
 
+```
+### CONTEUDO:
+
+```mermaid
+pie
+"Google Colab" : 10
+"Jupyter Notebook" : 10
+"Python" : 10
+"Javascript" : 10
+"React" : 10
+"Flask" : 10
+"Django" : 10
+"Ngrok" : 10
+"SQL" : 10
+"Firebase(NoSQL)" : 10
 ```
 
 ### FONTE:
