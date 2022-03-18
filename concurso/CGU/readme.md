@@ -23,20 +23,28 @@
   
 </ul>
 
-### COMANDOS
+### PLANO DE ESTUDO
 
-```
-B[Analises]
-
-B --> C{Concursos}
-C --> J[Banca]
-C --> K[Edital]
-C --> L[Conteudo]
-C --> O[Provas anteriores]
-C --> M[Revisoes]
-C --> N[Simulados]
-```
-
+<ul>
+  
+  <li>
+    <p><b><code> INICIO </code></b></p>
+    <p><i> FGV:  </i></p>
+  </li>
+  
+  <li>
+    <p><b><code> MEIO </code></b></p>
+    <p><i> DIREITO </i></p>
+    <p><i> TECNOLOGIA DA INFORMAÇÃO </i></p>
+    <p><i> INGLêS </i></p>
+  </li> 
+  
+  <li>
+    <p><b><code> FIM </code></b></p>
+    <p><i>  </i></p>
+  </li>
+  
+</ul>
 
 ### FLUXOGRAMA/DIAGRAMA
 
