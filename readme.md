@@ -54,14 +54,14 @@ pie
     title My working day
     
     section ESTUDAR / LEARN
-      PLANEJAR: 5: Me
+      PLANEJAR: 5: MM
       
-      ESTUDAR: 3: Me
-      ENSINAR: 1: Me, Nivel-2
+      ESTUDAR: 3: 5
+      ENSINAR: 1: 5, 10
     
     section PRATICAR / PRATICE
-      SIMULADO: 5: Me
-      CORREÇÃO: 3: Me
+      SIMULADO: 5: 5
+      CORREÇÃO: 3: 5
 ```
 ### FONTE:
 
