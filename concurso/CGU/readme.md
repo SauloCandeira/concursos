@@ -26,12 +26,9 @@ flowchart LR
 B[Analises]
 
 B --> C{CGU}
-C --> J[FGV] 
-C --> K[Edital]
-C --> L[Conteudo]
-C --> O[Provas anteriores]
-C --> M[Revisoes]
-C --> N[Simulados]
+C --> J[Direito] 
+C --> K[Tecnologia]
+C --> L[Inglês]
 
 ```
 
