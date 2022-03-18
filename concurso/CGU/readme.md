@@ -34,12 +34,12 @@
   
   <li>
     <p><b><code> MEIO </code></b></p>
-    <p><i> 33%  </i></p>
+    <p><i> 63%  </i></p>
   </li> 
   
   <li>
     <p><b><code> FIM </code></b></p>
-    <p><i> 33%  </i></p>
+    <p><i> 99%  </i></p>
   </li>
   
 </ul>
