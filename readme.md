@@ -52,11 +52,14 @@ pie
 ```mermaid
   journey
     title My working day
-    section Go to work
+    
+    section ESTUDAR / LEARN
       Make tea: 5: Me
+      
       Go upstairs: 3: Me
       Do work: 1: Me, Cat
-    section Go home
+    
+    section PRATICAR / PRATICE
       Go downstairs: 5: Me
       Sit down: 3: Me
 ```
