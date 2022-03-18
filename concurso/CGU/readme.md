@@ -1,7 +1,6 @@
 # Controladoria Geral da União - CGU
-<code>
+
 ### 1.0 EDITAL:
-</code>
 
 <ul>
   
