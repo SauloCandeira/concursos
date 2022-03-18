@@ -58,11 +58,7 @@ C --> L[Inglês]
 
 ```
 
-### FONTE:
-
-
-### 1.0 - FASES DO PROJETO
-
+### 3.0 - REVISÃO
 ```
 <ul>
   
