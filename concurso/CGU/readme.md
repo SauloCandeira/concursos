@@ -10,14 +10,14 @@
   </li>
   
   <li>
-    <p><b><code>CONTEUDO </code></b></p>
+    <p><b><code> CONTEUDO </code></b></p>
     <p><i> DIREITO </i></p>
     <p><i> TECNOLOGIA DA INFORMAÇÃO </i></p>
     <p><i> INGLêS </i></p>
   </li> 
   
   <li>
-    <p><b><code>1.3 - [BACK-END] </code></b></p>
+    <p><b><code> CRONOGRAMA </code></b></p>
     <p><i>  </i></p>
   </li>
   
