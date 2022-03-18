@@ -36,9 +36,9 @@ C --> N[Simulados]
 
 ```mermaid
 pie
-"Direito" : 33,33
-"Tecnologia da Informação" : 33,33
-"Inglês" : 33,33
+"Direito" : 33
+"Tecnologia da Informação" : 33
+"Inglês" : 33
 ```
 
 ### CRONOGRAMA:
