@@ -24,8 +24,8 @@ flowchart LR
 
 B[Analises]
 
-B --> C{Concursos}
-C --> J[Banca]
+B --> C{CGU}
+C --> J[FGV] 
 C --> K[Edital]
 C --> L[Conteudo]
 C --> O[Provas anteriores]
