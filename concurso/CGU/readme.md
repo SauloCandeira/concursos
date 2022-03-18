@@ -1,10 +1,27 @@
 # Controladoria Geral da União - CGU
 
-### Sobre o Projeto:
+### EDITAL:
 
-Desenvolvimento de um projeto que analisa editais e questões de concursos
-
-URL: https://saulocandeira.github.io/project-concursos/
+<ul>
+  
+  <li>
+    <p><b><code> BANCA </code></b></p>
+    <p><i> FGV:  </i></p>
+  </li>
+  
+  <li>
+    <p><b><code>CONTEUDO </code></b></p>
+    <p><i> DIREITO </i></p>
+    <p><i> TECNOLOGIA DA INFORMAÇÃO </i></p>
+    <p><i> INGLêS </i></p>
+  </li> 
+  
+  <li>
+    <p><b><code>1.3 - [BACK-END] </code></b></p>
+    <p><i>  </i></p>
+  </li>
+  
+</ul>
 
 ### COMANDOS
 
