@@ -1,6 +1,6 @@
 # Controladoria Geral da União - CGU
 
-### 1.0 EDITAL:
+### 1.0 - EDITAL:
 
 <ul>
   
@@ -23,7 +23,7 @@
   
 </ul>
 
-### PLANO DE ESTUDO
+### 2.0 - PLANO DE ESTUDO
 
 <ul>
   
