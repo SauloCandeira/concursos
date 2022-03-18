@@ -56,7 +56,7 @@ pie
     section ESTUDAR / LEARN
       PLANEJAR: 5: SS
       
-      ESTUDAR: 3: SS
+      ESTUDAR: 5: SS
       ENSINAR: 1: II
     
     section PRATICAR / PRATICE
