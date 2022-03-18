@@ -36,16 +36,9 @@ C --> N[Simulados]
 
 ```mermaid
 pie
-"Google Colab" : 10
-"Jupyter Notebook" : 10
-"Python" : 10
-"Javascript" : 10
-"React" : 10
-"Flask" : 10
-"Django" : 10
-"Ngrok" : 10
-"SQL" : 10
-"Firebase(NoSQL)" : 10
+"Direito" : 33,33
+"Tecnologia da Informação" : 33,33
+"Inglês" : 33,33
 ```
 
 ### CRONOGRAMA:
