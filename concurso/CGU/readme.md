@@ -29,19 +29,17 @@
   
   <li>
     <p><b><code> INICIO </code></b></p>
-    <p><i> FGV:  </i></p>
+    <p><i> 33%  </i></p>
   </li>
   
   <li>
     <p><b><code> MEIO </code></b></p>
-    <p><i> DIREITO </i></p>
-    <p><i> TECNOLOGIA DA INFORMAÇÃO </i></p>
-    <p><i> INGLêS </i></p>
+    <p><i> 33%  </i></p>
   </li> 
   
   <li>
     <p><b><code> FIM </code></b></p>
-    <p><i>  </i></p>
+    <p><i> 33%  </i></p>
   </li>
   
 </ul>
