@@ -172,7 +172,7 @@
                     <div class="status">
                       <h1>Not Started</h1>
 
-			<div class="todo" draggable="true">
+			              <div class="todo" draggable="true">
                           POLICIA PENAL
                           <span class="close">&times;</span>
                         </div>
@@ -822,22 +822,27 @@
                           var ctx = document.getElementById("myChart").getContext("2d");
 
                           var data = {
-                              labels: ['Ministerio da Economia', 'Banco do Brasil', 'Caixa Economica', 'Funpresp', 'CGU', 'MINISTERIO DAS COMUNICACOES', 'TJDFT'],
+                              labels: ['Ministerio da Economia', 'Banco do Brasil', 'Caixa Economica', 'Funpresp', 'CGU', 'MINISTERIO DAS COMUNICACOES', 'TJDFT', 'POLICIA PENAL', 'BRB'],
                               datasets: [
                                   {
                                       label: "Conhecimentos Basicos",
                                       backgroundColor: "blue",
-                                      data: [50,50,60,60,33,70,0]
+                                      data: [50,50,60,60,33,70,0,0,43]
                                   },
                                   {
                                       label: "Conhecimentos Especificos",
                                       backgroundColor: "red",
-                                      data: [26,34,23,29,21,29,0]
+                                      data: [26,34,23,29,21,29,0,0,46]
                                   },
                                   {
                                       label: "Nota final",
                                       backgroundColor: "green",
-                                      data: [36, 39, 41, 38, 22, 36, 0],
+                                      data: [36, 39, 41, 38, 22, 36, 0,0,45],
+                                  }, 
+                                  {
+                                      label: "Nota de corte",
+                                      backgroundColor: "yellow",
+                                      data: [0, 0, 0, 0, 0, 0, 0,0,50],
                                   }, 
                               ]
                           };
@@ -900,10 +905,10 @@
                               var myPieChart = new Chart(linectx, {
                                   type: 'line',
                                   data: {
-                                      labels: ['Ministerio da Economia', 'Banco do Brasil', 'Caixa Economica', 'Funpresp', 'CGU', 'MINISTERIO DAS COMUNICACOES', 'TJDFT'],
+                                      labels: ['Ministerio da Economia', 'Banco do Brasil', 'Caixa Economica', 'Funpresp', 'CGU', 'MINISTERIO DAS COMUNICACOES', 'TJDFT', 'POLICIA PENAL', 'BRB'],
                                       datasets: [{
                                           label: '# of Votes',
-                                          data: [36, 39, 41, 38, 22, 36, 0],
+                                          data: [36, 39, 41, 38, 22, 36, 0,0,45],
                                           backgroundColor: [
                                               'rgba(255, 99, 132, 0.2)',
                                               'rgba(54, 162, 235, 0.2)',
